@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,700&family=Poppins:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+body{
+    background: #ffff;
+}
+
+.navbar-brand {
+    margin-left: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #6A6A6A;
+}
+
+#navbarNav {
+    margin-left: 1000px;
+}
+
+nav {
+    margin-left: 15px;
+}
+
+.nav-link {
+    margin-left: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A6A6A;
+}
+
+/* animasi text */
+.navbar-nav a:hover,
+.navbar-nav .active,
+.navbar-nav .active:focus,
+.navbar-nav li:hover>a {
+    text-decoration: none;
+    color: #FCA720;
+
+}
+
+
+
+.navbar-nav a i,
+.navbar-nav a:focus i {
+    font-size: 24px;
+    padding-right: 8px;
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.nav_button .btn {
+    margin-left: 32px;
+    width: 125px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #6A6A6A;
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #BFC4C7; 
+}
+
+/* bagian judul besar */
+
+.heading {
+    font-family: 'Piazzolla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 125px;
+    /* identical to box height */
+
+
+    color: #6A6A6A;
+    margin-left: -50px;
+    margin-top: 25px;
+}
+
+.heading span {
+    font-family: 'Piazzolla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 125px;
+    /* identical to box height */
+
+
+    color: #FCA720;
+
+    
+
+}
+
+.header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #6A6A6A;
+    margin-left: -50px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+/* bagian lingkaran */
+
+.ellips1{
+    width: 350px;
+    height: 350px;
+    background: #A889E6;
+    border-radius: 350px;
+    margin-left: -200px;
+    
+}
+.ellips2 {
+    width: 350px;
+    height: 350px;
+    background: #ED97AD;
+    border-radius: 350px;
+    margin-left: -50px;
+    margin-top:-150px;
+    
+}
+
+.photo {
+    margin-top: -600px;
+    margin-left: -200px;
+}
+
+/* hiasan */
+
+.gmail{
+    margin-left: -550px;
+    margin-top: -900px;
+}
+
+.facebook {
+    margin-left: 400px;
+    margin-top: -500px;
+}
+
+.linkedin {
+    margin-left: -450px;
+    margin-top: -150px;
+}
+
+/* tombol hire me */
+
+.button_hire .btn {
+    margin-left: -50px;
+    margin-top: -350px;
+    width: 224px;
+    height: 59px;
+    background: #FDBD07;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+}
+
+.Goto {
+    margin-left: -100px;
+    margin-top: -325px;
+
+}
+
+.Dana {
+    margin-left: 0px;
+    margin-top: -325px;
+
+}
+
+.Trust_Wallet {
+    margin-left: -20px;
+    margin-top: -325px;
+
+}
+
+/* < !-- bagian hasil kerja sukses --> */
+
+.pink{
+    width: 341px;
+    height: 120px;
+    background: #E793A9;
+    border-radius: 10px;
+    margin-left: -50px;
+
+    
+}
+
+.white{
+    width: 305px;
+    height: 93px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.job_done{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A6A6A;
+
+    padding-top: 50px;
+}
+
+.circle {
+    width: 125px;
+    height: 125px;
+    background: #FFFFFF;
+    border: 10px solid #E793A9;
+    border-radius: 125px;
+    margin-top: -200px;
+    margin-left: -20px;
+    
+}
+
+.total_job{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #6A6A6A;
+    padding-top: 25px;
+}
+
+
+/* Services */
+.boxes{
+    width: 341px;
+    height: 402px;
+
+    background: linear-gradient(214.78deg, #A386E6 0.84%, #EF8DA7 100.88%);
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+
+.circle_services {
+    width: 200px;
+    height: 200px;
+    background: #E793A9;
+    border-radius: 100px;
+    visibility: hidden;
+    
+}
+.serviices{
+    margin-left: 133px;
+    margin-top: -300px;
+}
+
+.head{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: -125px;
+}
+
+.menu_services{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.sub_judul {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* Bagian my awsome-services */
+.awsome_services{
+    margin-left: -200px;
+    margin-top: -10px;
+    width: 338px;
+    height: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    /* or 111% */
+
+
+    color: #08214B;
+}
+
+.awsome_services span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    /* or 111% */
+
+
+    color: #FDBD07;
+}
+
+
+.description_services {
+    width: 436px;
+    height: 69px;
+    margin-left: -200px;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #6A6A6A;
+
+}
+
+.button_cv .btn{
+    width: 224px;
+    height: 59px;
+    background: #FDBD07;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    border: none;
+    margin-left: -200px;
+}
+
+@media all and (max-width : 1000px) {
+    #navbarNav{
+        margin-left: 0px;
+    }
+    .nav_button .btn{
+        margin-left: 380px;
+        background: #FDBD07;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    .heading , .heading span{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .ellips1, .ellips2 {
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    .ellips1{
+        margin-left: -75px;
+    }
+    .ellips2{
+        margin-left: -10px;
+        margin-top: -40px;
+    }
+
+    .photo{
+        width: 300px;
+        margin-left: -100px;
+        margin-top: -350px;
+    }
+
+    .gmail,.linkedin,.facebook{
+        width: 65px;
+    }
+
+    .gmail {
+        margin-top: -650px;
+        margin-left: -300px;
+    }
+
+    .linkedin{
+        margin-left: -45px;
+    }
+
+    .facebook {
+        margin-left: 150px;
+    }
+
+    .button_hire .btn {
+        width: 170px;
+        height: 50px ;
+        font-size: 20px ;
+        margin-top: -50px;
+    }
+
+    .Goto,.Dana,.Trust_Wallet{
+        margin-top: -65px;
+        margin-left: 0px;
+    }
+
+    .header {
+        margin-top: 25px;
+        width: 500px;
+    }
+
+    .pink {
+        width: 220px;
+        height: 100px;
+
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    
+    .white{
+        width: 190px ;
+        height: 75px;
+    }
+
+    .pink{
+        margin-left: -50px;
+    }
+
+    .circle {
+        width: 100px ;
+        height: 100px;
+        margin-top: -175px;
+    }
+
+    .total_job{
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .boxes{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .awsome_services{
+        margin-left: -750px;
+        margin-top: 225px;
+        font-size: 35px ;
+        line-height: 35px;
+    }
+
+    .awsome_services span{
+        font-size: 35px;
+    }
+
+    .description_services {
+        margin-left: -750px;
+        margin-top: -20px;
+    }
+
+    .button_cv .btn {
+        margin-left: -750px;
+        padding-bottom: 50px;
+        margin-top: -25px;
+    }
+
+
+
+}
+
+@media all and (max-width : 500px) {
+    .navbar-brand {
+        font-size: 15px;
+    }
+    .nav-link {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+    .nav_button .btn {
+        margin-left:150px;
+        font-size: 15px ;
+    }
+
+    .heading {
+        text-align: center;
+        width: 500px;
+    }
+
+    .header{
+        font-size: 10px;
+        line-height: 10px;
+        width: 400px;
+        margin-left: 0px;
+    }
+
+    .ellips1 {
+        margin-top: 400px;
+        margin-left: -300px;
+    }
+    .ellips2 {
+        margin-top: -100px;
+        margin-left: -200px;
+    }
+
+    .gmail,.facebook,.linkedin,.photo {
+        margin-left: 0px;
+        margin-top: -500px;
+    }
+
+    .photo {
+        margin-left: -300px;
+        margin-top: -350px;
+    }
+
+    .gmail {
+        margin-left: -350px;
+    }
+
+    .facebook {
+        margin-left: 250px;
+        margin-top: -300px;
+    }
+    .linkedin {
+        margin-left: -300px;
+        margin-top: -20px;
+    }
+
+    .button_hire .btn, .Goto, .Dana, .Trust_Wallet {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .button_hire .btn{
+        margin-left: 100px;
+    }
+
+    .Goto {
+        margin-top: 70px;
+        margin-left: -50px;
+    }
+
+    .Dana {
+        margin-top:  70px;
+    }
+
+    .Trust_Wallet {
+        margin-top: -85px;
+        margin-left: 100px;
+    }
+
+    .pink {
+        margin-left: 50px;
+        width: 150px;
+        height: 75px;
+    }
+    .white {
+        width: 125px;
+        height: 50px;
+    }
+
+    .circle {
+        margin-left: 50px;
+        margin-top: -155px;
+    }
+
+    .job_done{
+        font-size: 10px;
+        padding-top: 20px;
+    }
+
+    .boxes {
+        margin-left: -225px;
+        margin-top: 225px;
+    }
+
+    .awsome_services {
+        margin-left: -350px;
+        margin-top: 650px;
+        text-align: center;
+    }
+
+    .description_services{
+        margin-left: -350px;
+        width: 350px;
+    }
+
+    .button_cv .btn{
+        margin-left: -275px;
+        margin-top: 0px;
+        width: 170px;
+        height: 50px;
+
+        font-size: 15px;
+    }
+
+   
+
+
+
+}
